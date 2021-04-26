@@ -20,10 +20,17 @@ frame-support = { git = "https://github.com/paritytech/substrate", branch = "roc
 frame-system = { git = "https://github.com/paritytech/substrate", branch = "rococo-v1" }
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "rococo-v1" }
 
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
-cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
-parachain-info = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
-cumulus-pallet-xcm-handler = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
+
+# cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
+# cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
+# parachain-info = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
+# cumulus-pallet-xcm-handler = { git = "https://github.com/paritytech/cumulus", branch = "rococo-v1" }
+
+cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", commit = "d7068cc4936fccdb615bcddb2f565ead4f119ef2" }
+cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", commit = "d7068cc4936fccdb615bcddb2f565ead4f119ef2" }
+parachain-info = { git = "https://github.com/paritytech/cumulus", commit = "d7068cc4936fccdb615bcddb2f565ead4f119ef2" }
+cumulus-pallet-xcm-handler = { git = "https://github.com/paritytech/cumulus", commit = "d7068cc4936fccdb615bcddb2f565ead4f119ef2" }
+
 
 xcm = { git = "https://github.com/paritytech/polkadot", branch = "rococo-v1" }
 xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "rococo-v1" }
